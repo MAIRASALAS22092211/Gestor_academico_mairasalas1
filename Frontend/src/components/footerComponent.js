@@ -19,13 +19,13 @@ function Footer(props){
                 <div className="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-		              Su dirección<br />
+		              Su dirección<br/>
 		              Barrio<br />
-		              Ciudad<br />
+		              Ciudad<br/>
 		              <i className="fa fa-phone fa-lg"></i>: Teléfono 1<br />
 		              <i className="fa fa-fax fa-lg"></i>: Teléfono 2<br />
 		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">
-                         correo@email.com</a>
+                         correo@email.com </a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">

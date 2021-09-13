@@ -24,9 +24,10 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 // Routes
+app.use('/api/student', require('./routes/students'));
 app.use('/api/teacher', require('./routes/teachers'));
 app.use('/api/admin', require('./routes/admin'));
-app.use('/api/student', require('./routes/students'));
+app.use('/api/users', require('./routes/users'));
 
 // Static Files
 app.use(express.static(path.join(__dirname, 'public')));;
